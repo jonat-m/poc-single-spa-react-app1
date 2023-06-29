@@ -1,0 +1,1 @@
+# poc-single-spa-react-app1
