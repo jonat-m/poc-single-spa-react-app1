@@ -1,0 +1,14 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "paths": {
+      "baseUrl": ["."],
+      "@org/utils": ["../utils/src/org-utils.js"]
+    }
+  },
+  "files": ["src/org-react-app1.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
